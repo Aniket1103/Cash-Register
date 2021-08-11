@@ -1,0 +1,108 @@
+:root{
+  --bg-color: #F3F0D7;
+  --primary-color: #CEE5D0;
+  --secondary-color: #D8B384;
+  --navbar-gradient: linear-gradient(rgb(19, 19, 19), rgba(255, 255, 255, 0));
+  --transparent-shade: rgba(255, 255, 255, 0.18);
+  --transparent-two: rgba(90, 90, 90, 0.18);
+  --button-color: rgb(184 129 73);
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body{
+  background-color: var(--bg-color);
+  color: #fff;
+  background-image: url(./images/image2.jpg);
+  backdrop-filter: blur(0.3px);
+  -webkit-backdrop-filter: blur(0.3px);
+  background-size: cover;
+  font-size: 1.2rem;
+  overflow: hidden;
+  height: 100%;
+  /* font-family: 'Lato', sans-serif; */
+}
+
+
+
+.navbar{
+  background-image: var(--navbar-gradient);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 9vh;
+  padding: 0rem 1rem;
+  /* z-index: 5; */
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+  background-color: var(--transparent-two);
+  margin: 3rem auto;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  outline: white;
+  box-shadow: 3px 3px 10px #111;
+  /* z-index: 20; */
+}
+
+.io-section{
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  width: 80%;
+}
+
+button{
+  background-color: var(--button-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 2rem;
+  width: 70%;
+  margin: auto;
+  border-radius: 5px;
+  color: #fff;
+}
+
+input{
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: solid white 2px;
+  padding: 0px 5px;
+  color: white;
+}
+
+#change-table{
+  border: solid rgb(158, 158, 158) 1px;
+  border-radius: 6px;
+  width: 98%;
+}
+h1, h2, h3{
+  text-align: center;
+}
+th{
+  /* background-color: var(--primary-color); */
+  /* width: 4rem; */
+}
+
+td{
+  /* background-color: #fff0dd; */
+  width: 2.2rem;
+  margin: 1rem;
+  text-align: center;
+  
+  border: solid rgba(41, 41, 41, 0.377) 1px;
+  border-radius: 2px;
+}
+
+.currency, .row-title{
+  background-color:rgba(41, 41, 41, 0.377);
+}
