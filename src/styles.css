@@ -68,6 +68,7 @@ button{
   margin: auto;
   border-radius: 5px;
   color: #fff;
+  font-size: 15px;
 }
 
 input{
@@ -99,10 +100,11 @@ td{
   margin: 1rem;
   text-align: center;
   
-  border: solid rgba(41, 41, 41, 0.377) 1px;
+  border: solid rgba(214, 214, 214, 0.377) 1px;
   border-radius: 2px;
 }
 
 .currency, .row-title{
   background-color:rgba(41, 41, 41, 0.377);
+  /* border: solid rgba(41, 41, 41, 0.377) 1px; */
 }
